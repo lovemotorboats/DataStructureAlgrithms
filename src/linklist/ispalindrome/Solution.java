@@ -48,4 +48,38 @@ public class Solution {
         return true;
     }
     //方法三：进阶方法，将空间复杂度缩减为O(1)，将链表右半区反转
+    public static boolean isPalindrome3(Node head){
+        //2019.9.5 22:11 代码未检验
+        if (head == null || head.next == null)
+            return true;
+        Node cur = head;
+        Node right = head.next;  //right指向的是要反转部分的第一个节点
+        Node rightPre = head;  //rightPre指向的是right的前一个结点
+        Node head1 = null;
+        Node cur1 = null;
+        while (cur.next != null && cur.next.next != null){
+            cur = cur.next.next;
+            right = right.next;
+            rightPre = rightPre.next;
+        }
+        rightPre.next = null;  //斩断前后两段
+        //反转right及后面的节点
+        head1 = linklist.reverselinklist.Solution.reverseSingleLinklist(right);
+        cur1 = head1;
+        cur = head;
+        while (cur1 != null){
+            if (cur1.value != cur.value){
+                //需要将链表还原
+                head1 = linklist.reverselinklist.Solution.reverseSingleLinklist(head1);
+                rightPre.next = head1;
+                return false;
+            }
+            cur = cur.next;
+            cur1 = cur1.next;
+        }
+        //也需要将链表还原
+        head1 = linklist.reverselinklist.Solution.reverseSingleLinklist(head1);
+        rightPre.next = head1;
+        return true;
+    }
 }
