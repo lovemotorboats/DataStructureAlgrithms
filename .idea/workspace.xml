@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2a51b36-e2ce-4be2-881f-6a0fbaf2acb1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/linklist/addlists/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linklist/copylistwithrand/NodeWithRand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linklist/copylistwithrand/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linklist/listpartion/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linklist/ispalindrome/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linklist/ispalindrome/Solution.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,16 +19,15 @@
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/linklist/ispalindrome/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
+            <state relative-caret-position="90">
+              <caret line="78" column="9" lean-forward="true" selection-start-line="78" selection-start-column="9" selection-end-line="78" selection-end-column="9" />
               <folding>
                 <element signature="method#isPalindrome1#0;class#Solution#0" />
               </folding>
@@ -34,9 +36,52 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/linklist/listpartion/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3168">
+              <caret line="96" column="23" lean-forward="true" selection-start-line="96" selection-start-column="23" selection-end-line="96" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/linklist/copylistwithrand/NodeWithRand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+              <folding>
+                <element signature="e#184#185#0" expanded="true" />
+                <element signature="e#211#212#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/linklist/copylistwithrand/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="54" column="59" selection-start-line="54" selection-start-column="59" selection-end-line="54" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/linklist/addlists/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1018">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/linklist/reverselinklist/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
+            <state relative-caret-position="165">
               <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
             </state>
           </provider>
@@ -76,6 +121,10 @@
         <option value="$PROJECT_DIR$/src/stackandqueue/catdogqueue/PetEnterQueue.java" />
         <option value="$PROJECT_DIR$/src/stackandqueue/catdogqueue/DogCatQueue.java" />
         <option value="$PROJECT_DIR$/src/linklist/ispalindrome/Solution.java" />
+        <option value="$PROJECT_DIR$/src/linklist/listpartion/Solution.java" />
+        <option value="$PROJECT_DIR$/src/linklist/copylistwithrand/NodeWithRand.java" />
+        <option value="$PROJECT_DIR$/src/linklist/copylistwithrand/Solution.java" />
+        <option value="$PROJECT_DIR$/src/linklist/addlists/Solution.java" />
       </list>
     </option>
   </component>
@@ -104,8 +153,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -113,40 +160,12 @@
               <item name="DataStructureAlgrithms" type="b2602c69:ProjectViewProjectNode" />
               <item name="DataStructureAlgrithms" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="DataStructureAlgrithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStructureAlgrithms" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataStructureAlgrithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStructureAlgrithms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataStructureAlgrithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStructureAlgrithms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="linklist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataStructureAlgrithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStructureAlgrithms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="linklist" type="462c0819:PsiDirectoryNode" />
-              <item name="ispalindrome" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataStructureAlgrithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStructureAlgrithms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="linklist" type="462c0819:PsiDirectoryNode" />
-              <item name="reverselinklist" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -188,17 +207,17 @@
       <workItem from="1567559517516" duration="8537000" />
       <workItem from="1567648767434" duration="10388000" />
       <workItem from="1567690544883" duration="2777000" />
+      <workItem from="1567832214636" duration="8157000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27314000" />
+    <option name="totallyTimeSpent" value="35471000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19818456" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20121029" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -286,19 +305,54 @@
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/linklist/ispalindrome/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="78" column="9" lean-forward="true" selection-start-line="78" selection-start-column="9" selection-end-line="78" selection-end-column="9" />
+          <folding>
+            <element signature="method#isPalindrome1#0;class#Solution#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/linklist/reverselinklist/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
+        <state relative-caret-position="165">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/linklist/ispalindrome/Solution.java">
+    <entry file="file://$PROJECT_DIR$/src/linklist/listpartion/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
+        <state relative-caret-position="3168">
+          <caret line="96" column="23" lean-forward="true" selection-start-line="96" selection-start-column="23" selection-end-line="96" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/linklist/copylistwithrand/NodeWithRand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
           <folding>
-            <element signature="method#isPalindrome1#0;class#Solution#0" />
+            <element signature="e#184#185#0" expanded="true" />
+            <element signature="e#211#212#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/linklist/copylistwithrand/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="54" column="59" selection-start-line="54" selection-start-column="59" selection-end-line="54" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/linklist/addlists/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1018">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
