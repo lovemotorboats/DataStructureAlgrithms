@@ -88,4 +88,57 @@ public class Solution {
             }else cur = cur.right;
         }
     }
+
+    //根据morris序进行更改，变成后序遍历
+    //1、对于cur只到达一次的结点，直接跳过，没有打印行为
+    //2、对于cur可以到达两次的结点X，cur第一次到达时没有打印行为，cur第二次到达X时
+    //逆序打印X左子树的右边界
+    //3、cur遍历完成后，逆序打印整棵树的右边界
+    public static void morrisPos(Node head){
+        if (head == null)
+            return;
+        Node cur = head;
+        Node mostRight = null;
+        while (cur != null){
+            mostRight = cur.left;
+            if (mostRight != null){
+                while (mostRight.right != null && mostRight.right != cur)
+                    mostRight = mostRight.right;
+                if (mostRight.right == null){
+                    mostRight.right = cur;
+                    cur = cur.left;
+                    continue;
+                }else {
+                    mostRight.right = null;
+                    printEdge(cur.left);
+                }
+            }
+            cur = cur.right;
+        }
+        printEdge(head);
+    }
+
+    //逆序打印二叉树的右边界
+    public static void printEdge(Node head){
+        Node tail = reverseEdge(head);  //先逆序
+        Node cur = tail;
+        while (cur != null){
+            System.out.print(cur.value + " ");
+            cur = cur.right;
+        }
+        reverseEdge(tail);  //再逆序回来
+    }
+
+    public static Node reverseEdge(Node from){
+        //将二叉树的右边界进行逆序，返回最右边的结点
+        Node pre = null;
+        Node next = null;
+        while (from != null){
+            next = from.right;
+            from.right = pre;
+            pre = from;
+            from = next;
+        }
+        return pre;
+    }
 }
