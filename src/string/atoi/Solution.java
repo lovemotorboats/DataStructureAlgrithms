@@ -1,6 +1,6 @@
 package string.atoi;
 
-//实现一个将字符串转换成整型数字
+//实现一个将字符串转换成整型数字类型
 public class Solution {
     public static int atoi(String str){
         if (str == null || str.trim().length() == 0)
