@@ -7,7 +7,7 @@ import binarytree.travel.Node;
 //1、分析有哪些可能，答案可能来自左子树，可能来自右子树，也可能就是整棵树
 //2、根据第一步的可能性分析，列出所有需要的信息
 //3、合并第二步的信息，为信息设计新的数据结构
-//4、设计递归函数
+//4、设计递归函数即可
 public class Solution {
     public static ReturnType process(Node X){
         if (X == null)

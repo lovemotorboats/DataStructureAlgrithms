@@ -2,11 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2a51b36-e2ce-4be2-881f-6a0fbaf2acb1" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/binarytree/findnext/Node.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/binarytree/findnext/Solution.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/binarytree/generatebst/Solution.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/binarytree/judgebstorcomplete/Solution.java" afterDir="false" />
+=======
+<<<<<<< HEAD
+      <change afterPath="$PROJECT_DIR$/src/string/atoi/Solution.java" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/src/binarytree/contains/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binarytree/findtwoerrnode/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binarytree/isbalancetree/ReturnType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binarytree/isbalancetree/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binarytree/postarray/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binarytree/printbinarytree/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/other/kmp/Solution.java" afterDir="false" />
+>>>>>>> 19fc7be2ed0c20d834e7f2abe278d530a70b89b0
+>>>>>>> c36fca7e8be97abe844a3bea645d648e79d28f7f
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/binarytree/travelbymorris/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/binarytree/travelbymorris/Solution.java" afterDir="false" />
     </list>
@@ -23,26 +37,118 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="538622050">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="449" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="449" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/binarytree/findnext/Node.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="330">
               <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
               <folding>
                 <element signature="e#183#184#0" expanded="true" />
                 <element signature="e#210#211#0" expanded="true" />
+=======
+<<<<<<< HEAD
+            <state relative-caret-position="972">
+              <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+=======
+            <state relative-caret-position="64">
+              <caret line="48" column="13" lean-forward="true" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+>>>>>>> 19fc7be2ed0c20d834e7f2abe278d530a70b89b0
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/binarytree/isbalancetree/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="3096">
+              <caret line="89" column="5" selection-start-line="89" selection-start-column="5" selection-end-line="89" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+=======
+            <state relative-caret-position="130">
+              <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+              <folding>
+                <element signature="e#840#841#0" expanded="true" />
+                <element signature="e#871#872#0" expanded="true" />
+>>>>>>> 19fc7be2ed0c20d834e7f2abe278d530a70b89b0
+>>>>>>> c36fca7e8be97abe844a3bea645d648e79d28f7f
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/binarytree/travelbymorris/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="549">
+              <caret line="90" column="1" lean-forward="true" selection-start-line="90" selection-start-column="1" selection-end-line="90" selection-end-column="1" />
+=======
       <file pinned="false" current-in-tab="true">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/src/binarytree/findnext/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-165">
               <caret line="19" column="50" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
+=======
+        <entry file="file://$PROJECT_DIR$/src/binarytree/postarray/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="130">
+              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+>>>>>>> 19fc7be2ed0c20d834e7f2abe278d530a70b89b0
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/string/atoi/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/binarytree/isbalancetree/ReturnType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="78">
+              <caret line="6" column="55" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
+>>>>>>> 19fc7be2ed0c20d834e7f2abe278d530a70b89b0
+>>>>>>> c36fca7e8be97abe844a3bea645d648e79d28f7f
             </state>
           </provider>
         </entry>
@@ -95,6 +201,13 @@
         <option value="$PROJECT_DIR$/src/linklist/merge/Solution.java" />
         <option value="$PROJECT_DIR$/src/linklist/relocate/Solution.java" />
         <option value="$PROJECT_DIR$/src/binarytree/serialize/Solution.java" />
+<<<<<<< HEAD
+=======
+        <option value="$PROJECT_DIR$/src/binarytree/travelbymorris/Solution.java" />
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/src/string/atoi/Solution.java" />
+=======
+>>>>>>> c36fca7e8be97abe844a3bea645d648e79d28f7f
         <option value="$PROJECT_DIR$/src/arrayandmatrix.java" />
         <option value="$PROJECT_DIR$/src/arrayandmatrix/longestsubarrays/Solution.java" />
         <option value="$PROJECT_DIR$/src/binarytree/maxpathlen/Solution.java" />
@@ -107,14 +220,24 @@
         <option value="$PROJECT_DIR$/src/binarytree/isbalancetree/ReturnType.java" />
         <option value="$PROJECT_DIR$/src/binarytree/isbalancetree/Solution.java" />
         <option value="$PROJECT_DIR$/src/binarytree/postarray/Solution.java" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/binarytree/travelbymorris/Solution.java" />
         <option value="$PROJECT_DIR$/src/binarytree/judgebstorcomplete/Sulotion.java" />
         <option value="$PROJECT_DIR$/src/binarytree/judgebstorcomplete/Solution.java" />
         <option value="$PROJECT_DIR$/src/binarytree/generatebst/Solution.java" />
         <option value="$PROJECT_DIR$/src/binarytree/findnext/Node.java" />
         <option value="$PROJECT_DIR$/src/binarytree/findnext/Solution.java" />
+=======
+>>>>>>> 19fc7be2ed0c20d834e7f2abe278d530a70b89b0
+>>>>>>> c36fca7e8be97abe844a3bea645d648e79d28f7f
       </list>
     </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -127,10 +250,18 @@
   <component name="MavenRunner">
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
+<<<<<<< HEAD
+  <component name="ProjectFrameBounds">
+    <option name="x" value="38" />
+    <option name="y" value="246" />
+    <option name="width" value="1386" />
+    <option name="height" value="777" />
+=======
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="676" />
     <option name="width" value="697" />
     <option name="height" value="735" />
+>>>>>>> 19fc7be2ed0c20d834e7f2abe278d530a70b89b0
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -140,8 +271,15 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="Scope" />
       <pane id="PackagesPane" />
+=======
+<<<<<<< HEAD
+      <pane id="PackagesPane" />
+=======
+>>>>>>> 19fc7be2ed0c20d834e7f2abe278d530a70b89b0
+>>>>>>> c36fca7e8be97abe844a3bea645d648e79d28f7f
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -158,14 +296,22 @@
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+      <pane id="PackagesPane" />
+>>>>>>> 19fc7be2ed0c20d834e7f2abe278d530a70b89b0
+      <pane id="Scope" />
+>>>>>>> c36fca7e8be97abe844a3bea645d648e79d28f7f
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567673760653" />
-    <property name="last_opened_file_path" value="D:/Projects/EnterpriseProjects/npc_member_sms-master" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569660929021" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -206,23 +352,48 @@
       <workItem from="1569045536605" duration="3741000" />
       <workItem from="1569242735866" duration="6808000" />
       <workItem from="1569416625979" duration="6966000" />
+<<<<<<< HEAD
+      <workItem from="1569659915413" duration="1244000" />
+=======
       <workItem from="1569504388119" duration="2354000" />
       <workItem from="1569587930652" duration="2610000" />
       <workItem from="1569678812440" duration="3716000" />
       <workItem from="1570088631572" duration="5523000" />
       <workItem from="1570534916493" duration="6506000" />
       <workItem from="1570622688269" duration="6841000" />
+<<<<<<< HEAD
       <workItem from="1570796811327" duration="7812000" />
+=======
+>>>>>>> 19fc7be2ed0c20d834e7f2abe278d530a70b89b0
+>>>>>>> c36fca7e8be97abe844a3bea645d648e79d28f7f
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="94297000" />
+=======
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="60179000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="38" y="246" width="1386" height="777" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19004525" />
+=======
+    <option name="totallyTimeSpent" value="86485000" />
+>>>>>>> c36fca7e8be97abe844a3bea645d648e79d28f7f
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
+<<<<<<< HEAD
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22163388" />
+=======
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21860817" />
+>>>>>>> 19fc7be2ed0c20d834e7f2abe278d530a70b89b0
+>>>>>>> c36fca7e8be97abe844a3bea645d648e79d28f7f
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -240,7 +411,11 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="10" />
+<<<<<<< HEAD
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" visible="true" weight="0.13268608" />
+=======
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" visible="true" weight="0.1569966" />
+>>>>>>> 19fc7be2ed0c20d834e7f2abe278d530a70b89b0
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -256,7 +431,27 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/src/stackandqueue/getmaxwindow/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/stackandqueue/getnearless/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2340">
+          <caret line="67" column="5" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> c36fca7e8be97abe844a3bea645d648e79d28f7f
     <entry file="file://$PROJECT_DIR$/src/stackandqueue/sortstackbystack/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
@@ -297,9 +492,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2046">
           <caret line="78" column="9" selection-start-line="78" selection-start-column="9" selection-end-line="78" selection-end-column="9" />
-          <folding>
-            <element signature="method#isPalindrome1#0;class#Solution#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -349,9 +541,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="193">
           <caret line="89" column="9" lean-forward="true" selection-start-line="89" selection-start-column="9" selection-end-line="89" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -366,9 +555,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="193">
           <caret line="40" column="27" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -376,9 +562,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="259">
           <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -411,6 +594,18 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/linklist/addlists/Solution.java">
+<<<<<<< HEAD
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/linklist/relocate/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="972">
+          <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+=======
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
           <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
@@ -483,13 +678,19 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+>>>>>>> 19fc7be2ed0c20d834e7f2abe278d530a70b89b0
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/binarytree/serialize/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="3096">
+          <caret line="89" column="5" selection-start-line="89" selection-start-column="5" selection-end-line="89" selection-end-column="5" />
+=======
         <state relative-caret-position="1023">
           <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+>>>>>>> 19fc7be2ed0c20d834e7f2abe278d530a70b89b0
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -498,6 +699,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/other/kmp/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="1584">
           <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
         </state>
@@ -507,6 +709,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="825">
           <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+=======
+<<<<<<< HEAD
+        <state relative-caret-position="549">
+          <caret line="90" column="1" lean-forward="true" selection-start-line="90" selection-start-column="1" selection-end-line="90" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/stackandqueue/getmin/MyStack1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/string/atoi/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+=======
+        <state relative-caret-position="64">
+          <caret line="48" column="13" lean-forward="true" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+>>>>>>> c36fca7e8be97abe844a3bea645d648e79d28f7f
         </state>
       </provider>
     </entry>
@@ -561,8 +785,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/binarytree/findnext/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="-165">
           <caret line="19" column="50" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
+=======
+        <state relative-caret-position="130">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+>>>>>>> 19fc7be2ed0c20d834e7f2abe278d530a70b89b0
+>>>>>>> c36fca7e8be97abe844a3bea645d648e79d28f7f
         </state>
       </provider>
     </entry>
