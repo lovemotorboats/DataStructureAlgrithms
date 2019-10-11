@@ -65,7 +65,7 @@ public class Solution {
     }
 
     //根据morris序进行更改，变成中序遍历
-    //1、对于cur只到达依次的结点直接打印
+    //1、对于cur只到达一次的结点直接打印
     //2、对于cur可以到达两次的结点，在cur第一次到达时不打印，第二次打印
     public static void morrisIn(Node head){
         if (head == null)
