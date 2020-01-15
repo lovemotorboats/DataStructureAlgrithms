@@ -22,6 +22,4 @@ public class Solution {
     public static void main(String[] args) {
         hanoi(6, "左", "中", "右");
     }
-
-    //进阶问题：
 }
