@@ -46,4 +46,6 @@ public class Solution {
         backTracing(0);
         System.out.println("全排列总数为" + num);
     }
+
+
 }
