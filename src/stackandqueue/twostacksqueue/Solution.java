@@ -10,8 +10,8 @@ public class Solution {
     private Stack<Integer> stackPop;  //倒出栈
 
     public Solution(){
-        stackPop = new Stack<Integer>();
-        stackPush = new Stack<Integer>();
+        stackPop = new Stack<>();
+        stackPush = new Stack<>();
     }
 
     public void add(int pushInt){
