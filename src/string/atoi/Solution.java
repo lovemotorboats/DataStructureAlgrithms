@@ -18,16 +18,23 @@ public class Solution {
             index++;
         for (int i = index; i < arr.length; i++){
             if (arr[i] >= '0' && arr[i] <= '9'){
-                result = newsRes * 10 + arr[i] - '0';
-                if (result - arr[i] + '0' != newsRes * 10){
-                    //说明溢出了
-                    if (sign == 1)
-                        return Integer.MAX_VALUE;
-                    else return Integer.MIN_VALUE;
+                if(newsRes > Integer.MAX_VALUE / 10){  //溢出返回0
+                    return 0;
+                }else if(newsRes == Integer.MAX_VALUE / 10 && arr[i] > '7' && sign == 1){
+                    return 0;
+                }else if (newsRes == Integer.MAX_VALUE / 10 && arr[i] > '8' && sign == -1){
+                    return 0;
                 }
+                result = newsRes * 10 + arr[i] - '0';
                 newsRes = result;
-            }else break;
+            }else {  //输入参数不合法返回0
+                return 0;
+            }
         }
         return result * sign;
+    }
+
+    public static void main(String[] args) {
+        System.out.println(atoi("-21474836an"));
     }
 }
