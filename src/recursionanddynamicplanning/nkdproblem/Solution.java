@@ -1,6 +1,7 @@
 package recursionanddynamicplanning.nkdproblem;
 
 import java.util.ArrayList;
+import java.util.Scanner;
 
 //从大小为N的整型数组中，选取K个数，每个数之间的索引不能超过D，怎样选择能让选出来的数乘积最大？
 public class Solution {
@@ -15,20 +16,31 @@ public class Solution {
     //3、若a[i] == 0: dp[i][k][0] = 0;
     //               dp[i][k][1] = 0;
     //先算dp[i][1][0]和dp[i][1][1]
-    public static int getMax(int[] a, int k, int d, ArrayList<Integer> result) {  //result返回结果中选取元素的索引
-        if (a == null || a.length == 0 || k > a.length || d > a.length - 1) {
+    public static long getMax(int[] a, int k, int d, ArrayList<Integer> result) {  //result返回结果中选取元素的索引
+        if (a == null || a.length == 0 || k > a.length || k <= 0 || d < 0) {
             return 0;
         }
+        if(d == 0){
+            if(k > 1){
+                return 0;
+            }else if (k == 1){
+                int max = a[0];
+                for(int i = 0; i < a.length; i++){
+                    max = max < a[i] ? a[i] : max;
+                }
+                return max;
+            }
+        }
         int len = a.length;
-        int[][][] dp = new int[len][k][2];
+        long[][][] dp = new long[len][k][2];
         for (int i = 0; i < len; i++) {  //第一列初始化
             dp[i][0][0] = a[i] > 0 ? a[i] : 0;
             dp[i][0][1] = a[i] < 0 ? a[i] : 0;
         }
         for (int i = 1; i < k; i++) {  //从第二列开始递推
             for (int j = i; j < len; j++) {
-                int min = dp[j - 1][i - 1][1];
-                int max = dp[j - 1][i - 1][0];
+                long min = dp[j - 1][i - 1][1];
+                long max = dp[j - 1][i - 1][0];
                 for (int m = j - 1; m >= j - d && m >= 0; m--) {  //找出前d个元素的最小负值
                     min = Math.min(min, dp[m][i - 1][1]);
                     max = Math.max(max, dp[m][i - 1][0]);
@@ -45,17 +57,59 @@ public class Solution {
                 }
             }
         }
-        int val = dp[len - 1][k - 1][0];
+        long val = dp[len - 1][k - 1][0];
+        int lastIndex = len - 1;
         for (int i = k - 1; i < len; i++) {
-            val = Math.max(val, dp[i][k - 1][0]);
+            if(val < dp[i][k - 1][0]){
+                val = dp[i][k - 1][0];
+                lastIndex = i;
+            }
+        }
+        long max = val;  //临时变量
+        result.add(lastIndex);
+        int col = k - 2;
+        while (result.size() != k){
+            if (a[lastIndex] > 0){
+                for(int j = lastIndex - 1; j >= lastIndex - d && j >= 0; j--){
+                    if (dp[j][col][0] == max / a[lastIndex] || dp[j][col][1] == max / a[lastIndex]){
+                        max = max / a[lastIndex];
+                        lastIndex = j;
+                        col--;
+                        result.add(lastIndex);
+                        break;
+                    }
+                }
+            }else if (a[lastIndex] < 0){
+                for(int j = lastIndex - 1; j >= lastIndex - d && j >= 0; j--){
+                    if (dp[j][col][1] == max / a[lastIndex] || dp[j][col][0] == max / a[lastIndex]){
+                        max = max / a[lastIndex];
+                        lastIndex = j;
+                        col--;
+                        result.add(lastIndex);
+                        break;
+                    }
+                }
+            }
         }
         return val;
     }
 
     public static void main(String[] args) {
-        int[] input = {3, 7, -2, 4, 6, 1, -7, -5, 3, 9};
-        int m = getMax(input, 3, 3, new ArrayList<Integer>());
-        System.out.println(m);
-
+//        int[] input = {3, 7, -2, 4, 6, 1, -7, -5, 3, 9};
+//        int m = getMax(input, 3, 3, new ArrayList<Integer>());
+//        System.out.println(m);
+            Scanner input = new Scanner(System.in);
+            int numOfStudents = input.nextInt();
+            int[] a = new int[numOfStudents];
+            for(int i = 0; i < numOfStudents; i++){
+                a[i] = input.nextInt();
+            }
+            int k = input.nextInt();
+            int d = input.nextInt();
+            ArrayList<Integer> list = new ArrayList<>();
+            System.out.println(getMax(a, k, d, list));
+            for (int index : list){
+                System.out.println(index + " " + a[index]);
+            }
     }
 }

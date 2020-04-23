@@ -52,7 +52,7 @@ public class Solution {
         cur1 = newNode = head.next;
         while (cur != null){
             cur.next = cur1.next;
-            cur1.next = cur != null ? cur.next.next : null;
+            cur1.next = cur.next != null ? cur.next.next : null;
             cur = cur1.next;
             cur1 = cur1.next;
         }
