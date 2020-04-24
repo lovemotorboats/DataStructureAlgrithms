@@ -2,54 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70cf310c-8938-4717-ab6a-e015914111c9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/recursionanddynamicplanning/robotwalk/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/other/quickpow/FibonacciWithMod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/other/quickpow/IntegerQuickPow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/other/quickpow/MatrixMultiply.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/other/quickpow/MatrixQuickPow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructureAlgrithms/arrayandmatrix/longestsubarrays/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructureAlgrithms/arrayandmatrix/longestsubarrays/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructureAlgrithms/binarytree/biggestsearchbinarytree/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructureAlgrithms/binarytree/biggestsearchbinarytree/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructureAlgrithms/binarytree/findnext/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructureAlgrithms/binarytree/findnext/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructureAlgrithms/binarytree/findtwoerrnode/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructureAlgrithms/binarytree/findtwoerrnode/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructureAlgrithms/binarytree/getmaxhappy/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructureAlgrithms/binarytree/getmaxhappy/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructureAlgrithms/binarytree/isbalancetree/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructureAlgrithms/binarytree/isbalancetree/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructureAlgrithms/binarytree/judgebstorcomplete/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructureAlgrithms/binarytree/judgebstorcomplete/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructureAlgrithms/binarytree/postarray/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructureAlgrithms/binarytree/postarray/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructureAlgrithms/binarytree/printbinarytree/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructureAlgrithms/binarytree/printbinarytree/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructureAlgrithms/binarytree/serialize/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructureAlgrithms/binarytree/serialize/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructureAlgrithms/binarytree/travel/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructureAlgrithms/binarytree/travel/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructureAlgrithms/binarytree/travelbymorris/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructureAlgrithms/binarytree/travelbymorris/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructureAlgrithms/linklist/addlists/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructureAlgrithms/linklist/addlists/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructureAlgrithms/linklist/copylistwithrand/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructureAlgrithms/linklist/copylistwithrand/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructureAlgrithms/linklist/insertnode/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructureAlgrithms/linklist/insertnode/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructureAlgrithms/linklist/intersectlinklist/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructureAlgrithms/linklist/intersectlinklist/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructureAlgrithms/linklist/ispalindrome/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructureAlgrithms/linklist/ispalindrome/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructureAlgrithms/linklist/listpartion/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructureAlgrithms/linklist/listpartion/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructureAlgrithms/linklist/merge/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructureAlgrithms/linklist/merge/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructureAlgrithms/linklist/relocate/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructureAlgrithms/linklist/relocate/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructureAlgrithms/linklist/removeallvalue/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructureAlgrithms/linklist/removeallvalue/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructureAlgrithms/linklist/removelastkthnode/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructureAlgrithms/linklist/removelastkthnode/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructureAlgrithms/linklist/removemidnode/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructureAlgrithms/linklist/removemidnode/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructureAlgrithms/linklist/removenodewithunknowhead/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructureAlgrithms/linklist/removenodewithunknowhead/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructureAlgrithms/linklist/removerepeat/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructureAlgrithms/linklist/removerepeat/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructureAlgrithms/linklist/reverseKNode/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructureAlgrithms/linklist/reverseKNode/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructureAlgrithms/linklist/reverselinklist/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructureAlgrithms/linklist/reverselinklist/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructureAlgrithms/linklist/reversepartlinklist/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructureAlgrithms/linklist/reversepartlinklist/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructureAlgrithms/linklist/selectionsort/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructureAlgrithms/linklist/selectionsort/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructureAlgrithms/other/kmp/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructureAlgrithms/other/kmp/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructureAlgrithms/recursionanddynamicplanning/numberofcattle/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructureAlgrithms/recursionanddynamicplanning/numberofcattle/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructureAlgrithms/stackandqueue/getmaxwindow/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructureAlgrithms/stackandqueue/getmaxwindow/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructureAlgrithms/stackandqueue/getnearless/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructureAlgrithms/stackandqueue/getnearless/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructureAlgrithms/stackandqueue/maxrecsize/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructureAlgrithms/stackandqueue/maxrecsize/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructureAlgrithms/stackandqueue/sortstackbystack/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructureAlgrithms/stackandqueue/sortstackbystack/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructureAlgrithms/stackandqueue/twostacksqueue/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructureAlgrithms/stackandqueue/twostacksqueue/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructureAlgrithms/string/atoi/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructureAlgrithms/string/atoi/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructureAlgrithms/string/countstring/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructureAlgrithms/string/countstring/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructureAlgrithms/string/deformation/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructureAlgrithms/string/deformation/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructureAlgrithms/string/getindexnull/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructureAlgrithms/string/getindexnull/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructureAlgrithms/string/longestsubstring/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructureAlgrithms/string/longestsubstring/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructureAlgrithms/string/rotation/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructureAlgrithms/string/rotation/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructureAlgrithms/string/stoi/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructureAlgrithms/string/stoi/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linklist/copylistwithrand/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linklist/copylistwithrand/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recursionanddynamicplanning/nkdproblem/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/recursionanddynamicplanning/nkdproblem/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +41,20 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Confirmation" />
   </component>
-  <component name="RunManager" selected="Application.Solution (5)">
+  <component name="RunManager" selected="Application.IntegerQuickPow">
+    <configuration name="IntegerQuickPow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="other.quickpow.IntegerQuickPow" />
+      <module name="DataStructureAlgrithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="other.quickpow.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Solution (1)" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="binarytree.contains.Solution" />
       <module name="DataStructureAlgrithms" />
@@ -149,9 +120,11 @@
       <item itemvalue="Application.Solution (3)" />
       <item itemvalue="Application.Solution (4)" />
       <item itemvalue="Application.Solution (5)" />
+      <item itemvalue="Application.IntegerQuickPow" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IntegerQuickPow" />
         <item itemvalue="Application.Solution (5)" />
         <item itemvalue="Application.Solution (4)" />
         <item itemvalue="Application.Solution (3)" />
@@ -189,7 +162,8 @@
       <workItem from="1587453369042" duration="11875000" />
       <workItem from="1587629252761" duration="4184000" />
       <workItem from="1587646281845" duration="6054000" />
-      <workItem from="1587652723435" duration="1514000" />
+      <workItem from="1587652723435" duration="1760000" />
+      <workItem from="1587693428009" duration="11810000" />
     </task>
     <task id="LOCAL-00001" summary="deformation">
       <created>1575018319857</created>
@@ -268,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587518648220</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="npk问题">
+      <created>1587654340818</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1587654340818</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -285,72 +266,85 @@
     <MESSAGE value="n皇后、全排列" />
     <MESSAGE value="矩阵旋转" />
     <MESSAGE value="字符串转整数" />
-    <option name="LAST_COMMIT_MESSAGE" value="字符串转整数" />
+    <MESSAGE value="npk问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="npk问题" />
   </component>
   <component name="WindowStateProjectService">
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587652765991">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1587652765991" />
+    <state x="462" y="248" width="441" height="240" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1587711307975">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="462" y="248" width="441" height="240" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1587711307975" />
     <state x="89" y="39" key="#xdebugger.evaluate" timestamp="1587654042684">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="89" y="39" key="#xdebugger.evaluate/0.0.1366.728@0.0.1366.728" timestamp="1587654042684" />
-    <state x="258" y="0" key="CommitChangelistDialog2" timestamp="1587654254026">
+    <state x="258" y="0" key="CommitChangelistDialog2" timestamp="1587654324141">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="258" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1587654254026" />
+    <state x="258" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1587654324141" />
     <state width="416" height="466" key="DebuggerActiveHint" timestamp="1587653846348">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="416" height="466" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1587653846348" />
-    <state width="1323" height="238" key="GridCell.Tab.0.bottom" timestamp="1587654092755">
+    <state width="1323" height="255" key="GridCell.Tab.0.bottom" timestamp="1587711056107">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="238" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587654092755" />
-    <state width="1323" height="238" key="GridCell.Tab.0.center" timestamp="1587654092754">
+    <state width="1323" height="255" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587711056107" />
+    <state width="1323" height="255" key="GridCell.Tab.0.center" timestamp="1587711056106">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="238" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1587654092754" />
-    <state width="1323" height="238" key="GridCell.Tab.0.left" timestamp="1587654092753">
+    <state width="1323" height="255" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1587711056106" />
+    <state width="1323" height="255" key="GridCell.Tab.0.left" timestamp="1587711056106">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="238" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1587654092753" />
-    <state width="1323" height="238" key="GridCell.Tab.0.right" timestamp="1587654092754">
+    <state width="1323" height="255" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1587711056106" />
+    <state width="1323" height="255" key="GridCell.Tab.0.right" timestamp="1587711056106">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="238" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1587654092754" />
-    <state width="1323" height="238" key="GridCell.Tab.1.bottom" timestamp="1587654092451">
+    <state width="1323" height="255" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1587711056106" />
+    <state width="1323" height="255" key="GridCell.Tab.1.bottom" timestamp="1587711055823">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="238" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587654092451" />
-    <state width="1323" height="238" key="GridCell.Tab.1.center" timestamp="1587654092451">
+    <state width="1323" height="255" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587711055823" />
+    <state width="1323" height="255" key="GridCell.Tab.1.center" timestamp="1587711055823">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="238" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1587654092451" />
-    <state width="1323" height="238" key="GridCell.Tab.1.left" timestamp="1587654092451">
+    <state width="1323" height="255" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1587711055823" />
+    <state width="1323" height="255" key="GridCell.Tab.1.left" timestamp="1587711055822">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="238" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1587654092451" />
-    <state width="1323" height="238" key="GridCell.Tab.1.right" timestamp="1587654092451">
+    <state width="1323" height="255" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1587711055822" />
+    <state width="1323" height="255" key="GridCell.Tab.1.right" timestamp="1587711055823">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="238" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1587654092451" />
+    <state width="1323" height="255" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1587711055823" />
     <state x="419" y="74" key="RollbackChangesDialog" timestamp="1587652403856">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="419" y="74" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1587652403856" />
-    <state x="363" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1587652723323">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1587654330075">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="363" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1587652723323" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1587654330075" />
+    <state x="363" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1587693435937">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="363" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1587693435937" />
     <state x="234" y="100" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1587652056009">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="234" y="100" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.728@0.0.1366.728" timestamp="1587652056009" />
-    <state x="339" y="162" key="run.anything.popup" timestamp="1587651258981">
+    <state x="339" y="162" key="run.anything.popup" timestamp="1587711778966">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1587651258981" />
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1587711778966" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1587709938825">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1587709938825" />
   </component>
 </project>
