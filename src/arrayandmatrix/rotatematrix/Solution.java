@@ -1,4 +1,4 @@
-package arrayandmatrix.rotatearray;
+package arrayandmatrix.rotatematrix;
 
 //旋转矩阵
 public class Solution {
