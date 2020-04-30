@@ -15,7 +15,7 @@ public class Solution {
         int index = 0;
         for (int i = 0; i < arr.length; i++){
             while (!qmax.isEmpty() && arr[qmax.peekLast()] <= arr[i]){
-                qmax.pollFirst();
+                qmax.pollLast();
             }
             qmax.addLast(i);
             if (qmax.peekFirst() == i - w)
@@ -24,5 +24,21 @@ public class Solution {
                 res[index++] = arr[qmax.peekFirst()];
         }
         return res;
+    }
+
+    //求数组窗口长度为w的所有窗口中，各数之和最大的值是多少
+    public static int getMaxSumWithinWindow(int[]a , int w){
+        if (a == null || a.length == 0 || w <= 0){
+            return 0;
+        }
+        int max = 0, temp = 0;
+        for (int i = 0; i < w; i++){  //第一个窗口之和
+            max += a[i];
+        }
+        for (int i = w; i < a.length; i++){
+            temp = max + a[i] - a[i - w];
+            max = temp > max ? temp : max;
+        }
+        return max;
     }
 }

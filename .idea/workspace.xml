@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70cf310c-8938-4717-ab6a-e015914111c9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/arrayandmatrix/sort/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrayandmatrix/issquare/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/other/binarysearch/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arrayandmatrix/rotatearray/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrayandmatrix/rotatematrix/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stackandqueue/getmaxwindow/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stackandqueue/getmaxwindow/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,16 +42,10 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Confirmation" />
   </component>
-  <component name="RunManager" selected="Application.Solution (2)">
-    <configuration name="IntegerQuickPow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="other.quickpow.IntegerQuickPow" />
+  <component name="RunManager" selected="Application.Solution (3)">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="DataStructureAlgrithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="other.quickpow.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -66,25 +63,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrayandmatrix.sort.Solution" />
-      <module name="DataStructureAlgrithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="arrayandmatrix.sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.atoi.Solution" />
+      <option name="MAIN_CLASS_NAME" value="arrayandmatrix.issquare.Solution" />
       <module name="DataStructureAlgrithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string.atoi.*" />
+          <option name="PATTERN" value="arrayandmatrix.issquare.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursionanddynamicplanning.nkdproblem.Solution" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="other.binarysearch.Solution" />
       <module name="DataStructureAlgrithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="recursionanddynamicplanning.nkdproblem.*" />
+          <option name="PATTERN" value="other.binarysearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,34 +96,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrayandmatrix.rotatematrix.Solution" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
       <module name="DataStructureAlgrithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="arrayandmatrix.rotatematrix.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="Application.Solution (1)" />
-      <item itemvalue="Application.Solution (2)" />
-      <item itemvalue="Application.Solution (3)" />
       <item itemvalue="Application.Solution (4)" />
-      <item itemvalue="Application.Solution (5)" />
-      <item itemvalue="Application.IntegerQuickPow" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Solution" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.Solution (3)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Solution (2)" />
-        <item itemvalue="Application.Solution (4)" />
-        <item itemvalue="Application.IntegerQuickPow" />
-        <item itemvalue="Application.Solution (5)" />
         <item itemvalue="Application.Solution (3)" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Solution (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +153,8 @@
       <workItem from="1587646281845" duration="6054000" />
       <workItem from="1587652723435" duration="1760000" />
       <workItem from="1587693428009" duration="20471000" />
-      <workItem from="1587817445033" duration="4940000" />
+      <workItem from="1587817445033" duration="5292000" />
+      <workItem from="1587873527938" duration="23811000" />
     </task>
     <task id="LOCAL-00001" summary="deformation">
       <created>1575018319857</created>
@@ -268,7 +247,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587715750951</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="五种常见的排序算法">
+      <created>1587825925293</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1587825925293</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -287,7 +273,8 @@
     <MESSAGE value="字符串转整数" />
     <MESSAGE value="npk问题" />
     <MESSAGE value="快速幂" />
-    <option name="LAST_COMMIT_MESSAGE" value="快速幂" />
+    <MESSAGE value="五种常见的排序算法" />
+    <option name="LAST_COMMIT_MESSAGE" value="五种常见的排序算法" />
   </component>
   <component name="WindowStateProjectService">
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587652765991">
@@ -298,62 +285,62 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="462" y="248" width="441" height="240" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1587711307975" />
-    <state x="89" y="39" key="#xdebugger.evaluate" timestamp="1587654042684">
+    <state x="293" y="132" key="#xdebugger.evaluate" timestamp="1587873944015">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="89" y="39" key="#xdebugger.evaluate/0.0.1366.728@0.0.1366.728" timestamp="1587654042684" />
-    <state x="258" y="0" key="CommitChangelistDialog2" timestamp="1587715744717">
+    <state x="293" y="132" key="#xdebugger.evaluate/0.0.1366.728@0.0.1366.728" timestamp="1587873944015" />
+    <state x="258" y="0" key="CommitChangelistDialog2" timestamp="1588214653915">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="258" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1587715744717" />
-    <state width="416" height="466" key="DebuggerActiveHint" timestamp="1587720641455">
+    <state x="258" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1588214653915" />
+    <state width="416" height="466" key="DebuggerActiveHint" timestamp="1588214414589">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="416" height="466" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1587720641455" />
-    <state width="1323" height="184" key="GridCell.Tab.0.bottom" timestamp="1587825833708">
+    <state width="416" height="466" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1588214414589" />
+    <state width="1323" height="184" key="GridCell.Tab.0.bottom" timestamp="1588214559384">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="184" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587825833708" />
-    <state width="1323" height="184" key="GridCell.Tab.0.center" timestamp="1587825833707">
+    <state width="1323" height="184" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1588214559384" />
+    <state width="1323" height="184" key="GridCell.Tab.0.center" timestamp="1588214559383">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="184" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1587825833707" />
-    <state width="1323" height="184" key="GridCell.Tab.0.left" timestamp="1587825833707">
+    <state width="1323" height="184" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1588214559383" />
+    <state width="1323" height="184" key="GridCell.Tab.0.left" timestamp="1588214559383">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="184" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1587825833707" />
-    <state width="1323" height="184" key="GridCell.Tab.0.right" timestamp="1587825833707">
+    <state width="1323" height="184" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1588214559383" />
+    <state width="1323" height="184" key="GridCell.Tab.0.right" timestamp="1588214559384">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="184" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1587825833707" />
-    <state width="1323" height="184" key="GridCell.Tab.1.bottom" timestamp="1587825833335">
+    <state width="1323" height="184" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1588214559384" />
+    <state width="1323" height="184" key="GridCell.Tab.1.bottom" timestamp="1588214559034">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="184" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587825833335" />
-    <state width="1323" height="184" key="GridCell.Tab.1.center" timestamp="1587825833335">
+    <state width="1323" height="184" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1588214559034" />
+    <state width="1323" height="184" key="GridCell.Tab.1.center" timestamp="1588214559034">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="184" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1587825833335" />
-    <state width="1323" height="184" key="GridCell.Tab.1.left" timestamp="1587825833334">
+    <state width="1323" height="184" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1588214559034" />
+    <state width="1323" height="184" key="GridCell.Tab.1.left" timestamp="1588214559034">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="184" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1587825833334" />
-    <state width="1323" height="184" key="GridCell.Tab.1.right" timestamp="1587825833335">
+    <state width="1323" height="184" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1588214559034" />
+    <state width="1323" height="184" key="GridCell.Tab.1.right" timestamp="1588214559034">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="184" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1587825833335" />
+    <state width="1323" height="184" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1588214559034" />
     <state x="419" y="74" key="RollbackChangesDialog" timestamp="1587652403856">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="419" y="74" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1587652403856" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1587715760967">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1587825933855">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1587715760967" />
-    <state x="363" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1587817445070">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1587825933855" />
+    <state x="363" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1587873529555">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="363" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1587817445070" />
+    <state x="363" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1587873529555" />
     <state x="475" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587825851566">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -362,13 +349,24 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="234" y="100" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.728@0.0.1366.728" timestamp="1587652056009" />
-    <state x="339" y="162" key="run.anything.popup" timestamp="1587711778966">
+    <state x="339" y="162" width="672" height="677" key="run.anything.popup" timestamp="1588042151993">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1587711778966" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1587709938825">
+    <state x="339" y="162" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1588042151993" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1588212108892">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1587709938825" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1588212108892" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
