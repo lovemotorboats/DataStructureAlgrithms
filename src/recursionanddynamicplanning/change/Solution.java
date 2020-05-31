@@ -29,7 +29,7 @@ public class Solution {
         return process1(arr, 0 , aim);
     }
 
-    //方法三：机器人套路
+    //方法二：机器人套路
     //生成行数为N，列数为aim+1的矩阵dp，dp[i][j]表示在使用arr[0...i]货币的条件下，组成钱数
     //j有多少种方法
     public static int coins3(int[] arr, int aim){
@@ -54,5 +54,22 @@ public class Solution {
             }
         }
         return dp[arr.length - 1][aim];
+    }
+
+    //方法三：排列组合
+    public static int waysToChange(int n) {
+        int[] value = {5, 10, 25};
+        int[] dp = new int[n+1];
+        for (int i = 0; i <= n; i++){
+            dp[i] = 1;
+        }
+        for (int v : value){
+            for(int i = 1; i <= n; i++){
+                if (i >= v){
+                    dp[i] = (dp[i] + dp[i-v]) % 1000000007;
+                }
+            }
+        }
+        return dp[n] ;
     }
 }
