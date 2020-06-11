@@ -5,7 +5,7 @@ package backtracing.permutation;
 public class Solution {
     //还是使用回溯的方法
 
-    private static char[] output = new char[10];
+    private static char[] output = new char[5];
 
     private static final char[] chars = {'A', 'B', 'C', 'D', 'E'};
 
