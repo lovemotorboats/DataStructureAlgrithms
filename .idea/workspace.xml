@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70cf310c-8938-4717-ab6a-e015914111c9" name="Default Changelist" comment="二分查找、最大窗口值、正方形判断">
-      <change afterPath="$PROJECT_DIR$/src/backtracing/eightqueen/PrintSolution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/backtracing/permutation/RepeatableSolution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/backtracing/restoreIp/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/math/findNthUglyNumber/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/math/gcdOrGcm/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/math/pirme/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backtracing/combinationSum/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/slidewindow/Solution.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/temp/Client.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/temp/CodeC.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/temp/Main.java" afterDir="false" />
@@ -16,9 +13,7 @@
       <change afterPath="$PROJECT_DIR$/src/temp/SpinLockDemo.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/temp/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Solution.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/backtracing/permutation/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backtracing/permutation/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recursionanddynamicplanning/change/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/recursionanddynamicplanning/change/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,39 +48,13 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Confirmation" />
   </component>
-  <component name="RunManager" selected="Application.Solution (4)">
-    <configuration name="CodeC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="temp.CodeC" />
-      <module name="DataStructureAlgrithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="temp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Solution">
     <configuration name="Solution (1)" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="binarytree.contains.Solution" />
       <module name="DataStructureAlgrithms" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="binarytree.contains.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="math.gcdOrGcm.Solution" />
-      <module name="DataStructureAlgrithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="math.gcdOrGcm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,12 +88,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="math.pirme.Solution" />
+    <configuration name="Solution (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="backtracing.combinationSum.Solution" />
       <module name="DataStructureAlgrithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="math.pirme.*" />
+          <option name="PATTERN" value="backtracing.combinationSum.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution (6)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Solution" />
+      <module name="DataStructureAlgrithms" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="slidewindow.Solution" />
+      <module name="DataStructureAlgrithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="slidewindow.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,19 +123,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Solution (1)" />
-      <item itemvalue="Application.CodeC" />
-      <item itemvalue="Application.Solution" />
-      <item itemvalue="Application.Solution (2)" />
       <item itemvalue="Application.Solution (3)" />
       <item itemvalue="Application.Solution (4)" />
+      <item itemvalue="Application.Solution (5)" />
+      <item itemvalue="Application.Solution (6)" />
+      <item itemvalue="Application.Solution" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.Solution (6)" />
+        <item itemvalue="Application.Solution (5)" />
         <item itemvalue="Application.Solution (4)" />
         <item itemvalue="Application.Solution (3)" />
-        <item itemvalue="Application.Solution (2)" />
-        <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.CodeC" />
       </list>
     </recent_temporary>
   </component>
@@ -197,7 +186,12 @@
       <workItem from="1591696026116" duration="4061000" />
       <workItem from="1591760294453" duration="2702000" />
       <workItem from="1591782047202" duration="7642000" />
-      <workItem from="1591845041809" duration="4153000" />
+      <workItem from="1591845041809" duration="15089000" />
+      <workItem from="1591944210260" duration="2661000" />
+      <workItem from="1592048252199" duration="68000" />
+      <workItem from="1592059919350" duration="1271000" />
+      <workItem from="1592094630663" duration="28819000" />
+      <workItem from="1592401275622" duration="2898000" />
     </task>
     <task id="LOCAL-00001" summary="deformation">
       <created>1575018319857</created>
@@ -325,7 +319,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590915830095</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="复原ip地址等">
+      <created>1591851631905</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1591851631905</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -350,89 +351,98 @@
     <MESSAGE value="位运算、公约数、阶乘" />
     <MESSAGE value="子序列" />
     <MESSAGE value="打家劫舍" />
-    <option name="LAST_COMMIT_MESSAGE" value="打家劫舍" />
+    <MESSAGE value="复原ip地址等" />
+    <option name="LAST_COMMIT_MESSAGE" value="复原ip地址等" />
   </component>
   <component name="WindowStateProjectService">
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587652765991">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1587652765991" />
+    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser" timestamp="1592127694070">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1592127694070" />
     <state x="462" y="248" width="441" height="240" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1587711307975">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="462" y="248" width="441" height="240" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1587711307975" />
-    <state x="195" y="132" width="826" height="596" key="#xdebugger.evaluate" timestamp="1591847332325">
+    <state x="395" y="75" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog" timestamp="1592103115730">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="195" y="132" width="826" height="596" key="#xdebugger.evaluate/0.0.1366.728@0.0.1366.728" timestamp="1591847332325" />
-    <state x="258" y="0" key="CommitChangelistDialog2" timestamp="1590915819522">
+    <state x="395" y="75" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.0.1366.728@0.0.1366.728" timestamp="1592103115730" />
+    <state x="293" y="132" width="826" height="596" key="#xdebugger.evaluate" timestamp="1592403820264">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="258" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1590915819522" />
-    <state width="482" height="466" key="DebuggerActiveHint" timestamp="1591847409171">
+    <state x="293" y="132" width="826" height="596" key="#xdebugger.evaluate/0.0.1366.728@0.0.1366.728" timestamp="1592403820264" />
+    <state x="258" y="0" key="CommitChangelistDialog2" timestamp="1591851618098">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="482" height="466" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1591847409171" />
+    <state x="258" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1591851618098" />
+    <state width="482" height="466" key="DebuggerActiveHint" timestamp="1592403772512">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="482" height="466" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1592403772512" />
     <state x="122" y="55" key="DiffContextDialog" timestamp="1590855107886">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="122" y="55" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1590855107886" />
-    <state x="462" y="105" key="FileChooserDialogImpl" timestamp="1591103311323">
+    <state x="462" y="105" key="FileChooserDialogImpl" timestamp="1592048338022">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="462" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1591103311323" />
-    <state width="1323" height="312" key="GridCell.Tab.0.bottom" timestamp="1591851391628">
+    <state x="462" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1592048338022" />
+    <state width="1323" height="313" key="GridCell.Tab.0.bottom" timestamp="1592404010011">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="312" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1591851391628" />
-    <state width="1323" height="312" key="GridCell.Tab.0.center" timestamp="1591851391628">
+    <state width="1323" height="313" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1592404010011" />
+    <state width="1323" height="313" key="GridCell.Tab.0.center" timestamp="1592404010011">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="312" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1591851391628" />
-    <state width="1323" height="312" key="GridCell.Tab.0.left" timestamp="1591851391628">
+    <state width="1323" height="313" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1592404010011" />
+    <state width="1323" height="313" key="GridCell.Tab.0.left" timestamp="1592404010011">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="312" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1591851391628" />
-    <state width="1323" height="312" key="GridCell.Tab.0.right" timestamp="1591851391628">
+    <state width="1323" height="313" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1592404010011" />
+    <state width="1323" height="313" key="GridCell.Tab.0.right" timestamp="1592404010011">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="312" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1591851391628" />
-    <state width="1323" height="312" key="GridCell.Tab.1.bottom" timestamp="1591851391396">
+    <state width="1323" height="313" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1592404010011" />
+    <state width="1323" height="313" key="GridCell.Tab.1.bottom" timestamp="1592404009711">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="312" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1591851391396" />
-    <state width="1323" height="312" key="GridCell.Tab.1.center" timestamp="1591851391396">
+    <state width="1323" height="313" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1592404009711" />
+    <state width="1323" height="313" key="GridCell.Tab.1.center" timestamp="1592404009711">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="312" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1591851391396" />
-    <state width="1323" height="312" key="GridCell.Tab.1.left" timestamp="1591851391396">
+    <state width="1323" height="313" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1592404009711" />
+    <state width="1323" height="313" key="GridCell.Tab.1.left" timestamp="1592404009710">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="312" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1591851391396" />
-    <state width="1323" height="312" key="GridCell.Tab.1.right" timestamp="1591851391396">
+    <state width="1323" height="313" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1592404009710" />
+    <state width="1323" height="313" key="GridCell.Tab.1.right" timestamp="1592404009711">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="312" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1591851391396" />
+    <state width="1323" height="313" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1592404009711" />
     <state x="419" y="74" key="RollbackChangesDialog" timestamp="1587652403856">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="419" y="74" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1587652403856" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1590915843219">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1591851643104">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1590915843219" />
-    <state x="363" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1591845066169">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1591851643104" />
+    <state x="363" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1592401453101">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="363" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1591845066169" />
-    <state x="475" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1590851412343">
+    <state x="363" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1592401453101" />
+    <state x="475" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592401464296">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="475" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1590851412343" />
-    <state x="234" y="100" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1587652056009">
+    <state x="475" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1592401464296" />
+    <state x="234" y="100" width="897" height="605" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1592104218835">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="234" y="100" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.728@0.0.1366.728" timestamp="1587652056009" />
+    <state x="234" y="100" width="897" height="605" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.728@0.0.1366.728" timestamp="1592104218835" />
     <state x="57" y="0" key="new project wizard" timestamp="1590930718326">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
