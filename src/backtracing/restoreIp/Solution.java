@@ -65,6 +65,6 @@ class Solution {
     }
 
     public static void main(String[] args) {
-        System.out.println(restoreIpAddresses("172162541").toString());
+        System.out.println(restoreIpAddresses("0000").toString());
     }
 }
