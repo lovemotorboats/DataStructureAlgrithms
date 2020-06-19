@@ -1,5 +1,8 @@
 package slidewindow;
 
+import java.util.ArrayList;
+import java.util.List;
+
 //滑动窗口的相关题目
 public class Solution {
 
@@ -53,6 +56,52 @@ public class Solution {
         }
 
         return len == Integer.MAX_VALUE ? "" :s.substring(start, start + len);
+    }
+
+    //题目二：给定一个字符串 s 和一个非空字符串 p，找到 s 中所有是 p 的字母异位词的子串，返回这些子串的起始索引。
+    public List<Integer> findAnagrams(String s, String p) {
+        char[] sArray = s.toCharArray();
+        char[] pArray = p.toCharArray();
+
+        char[] need = new char[128];
+        char[] window =  new char[128];
+        for (int i = 0; i < pArray.length; i++) {
+            need[pArray[i]]++;
+        }
+
+        int size = getNumsOfNotZero(need);
+
+        int left = 0, right = 0;  //左闭右开区间
+        int valid = 0;
+
+        List<Integer> res = new ArrayList<>();
+        while (right < sArray.length) {
+            char ch = sArray[right];  //将要压入窗口的字符
+            right++;
+
+            if (need[ch] != 0) {
+                if (++window[ch] == need[ch]) {
+                    valid++;
+                }
+            }
+
+            //收缩窗口
+            while (right - left >= pArray.length) {
+                if (size == valid) {
+                    res.add(left);
+                }
+
+                char cp = sArray[left];  //将要弹出窗口的字符
+                left++;
+
+                if (need[cp] != 0) {
+                    if (window[cp]-- == need[cp]) {
+                        valid--;
+                    }
+                }
+            }
+        }
+        return res;
     }
 
     //返回input数组中不为零的元素个数
