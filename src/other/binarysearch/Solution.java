@@ -24,41 +24,45 @@ public class Solution {
     public static int getFirstIndex(int[] a, int key){
         int left = 0, right = a.length - 1;
         while (left <= right){
-            int mid = (left + right) / 2;
-            if (a[mid] >= key){
+            int mid = left + (right - left) / 2;
+            if (a[mid] > key){
                 right = mid - 1;
-            }else {
+            }else if (a[mid] < key){
                 left = mid + 1;
+            }else {
+                right = mid - 1;
             }
         }
-        if (left <= a.length - 1 && a[left] == key){
-            return left;
+        if (left >= a.length || a[left] != key){
+            return -1;
         }
-        return -1;
+        return left;  //第一个大于等于target的元素索引
     }
 
     //数组中有相同的元素，返回最后一个key的索引位置
     public static int getLastIndex(int[] a, int key){
-        int left = 0, right = a.length;
+        int left = 0, right = a.length - 1;
         while (left <= right){
-            int mid = (left + right) / 2;
-            if (a[mid] <= key){
+            int mid = left + (right - left) / 2;
+            if (a[mid] < key){
                 left = mid + 1;
-            }else {
+            }else if (a[mid] > key){
                 right = mid - 1;
+            }else {
+                left = mid + 1;
             }
         }
-        if (right <= a.length - 1 && a[right] == key){
-            return right;
+        if (right < 0 || a[right] != key){
+            return -1;
         }
-        return -1;
+        return right;  //最后一个小于等于target的元素索引
     }
 
     //返回第一个大于等于key的元素的索引
     public static int getFirstGEIndex(int[] a, int key){
         int left = 0, right = a.length - 1;
         while (left <= right){
-            int mid = (left + right) / 2;
+            int mid = left + (right - left) / 2;
             if (a[mid] >= key){
                 right = mid - 1;
             }else {
@@ -72,7 +76,7 @@ public class Solution {
     public static int getLastLEIndex(int[] a, int key){
         int left = 0, right = a.length - 1;
         while (left <= right){
-            int mid = (left + right) / 2;
+            int mid = left + (right - left) / 2;
             if (a[mid] <= key){
                 left = mid + 1;
             }else {
