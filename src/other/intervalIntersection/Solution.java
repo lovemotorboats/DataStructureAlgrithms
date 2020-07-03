@@ -8,7 +8,6 @@ package other.intervalIntersection;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
 
 public class Solution {
 
@@ -21,7 +20,7 @@ public class Solution {
         int aLen = A.length, bLen = B.length;
         List<int[]> list = new ArrayList<>();
         while (i < aLen && j < bLen) {
-            int a1 = A[i][0], a2 = B[i][1];
+            int a1 = A[i][0], a2 = A[i][1];
             int b1 = B[i][0], b2 = B[i][1];
             //两个区间存在交集
             if (a1 <= b2 && b1 <= a2) {
@@ -42,6 +41,13 @@ public class Solution {
             res[k] = list.get(k);
         }
         return res;
+    }
+
+    public static void main(String[] args) {
+        //[[0,2],[5,10],[13,23],[24,25]]
+        //[[1,5],[8,12],[15,24],[25,26]]
+        int[][] A = {{0, 2}, {5, 10}, {13, 23}, {24, 25}};
+        int[][] B = {{0, 2}, {5, 10}, {13, 23}, {24, 25}};
     }
 }
 

@@ -1,5 +1,7 @@
 package arrayandmatrix.sort;
 
+import java.util.concurrent.ConcurrentHashMap;
+
 //排序
 public class Solution {
 
@@ -10,7 +12,10 @@ public class Solution {
         a[y] = temp;
     }
 
-    //冒泡排序
+
+
+    //一、冒泡排序
+    /*--------------------------------------------------------------------------------------------*/
     public static void bubbleSort(int[] a){
         for (int i = 0; i < a.length - 1; i++){
             for (int j = 0; j < a.length - 1 - i; j++){
@@ -20,8 +25,12 @@ public class Solution {
             }
         }
     }
+    /*--------------------------------------------------------------------------------------------*/
+
+
 
     //选择排序
+    /*--------------------------------------------------------------------------------------------*/
     public static void selectSort(int[] a){
         for (int i = 0; i < a.length - 1; i++){
             int min = i;
@@ -33,8 +42,12 @@ public class Solution {
             swap(a, i, min);
         }
     }
+    /*--------------------------------------------------------------------------------------------*/
+
+
 
     //插入排序
+    /*--------------------------------------------------------------------------------------------*/
     public static void insertSort(int[] a){
         for (int i = 1; i < a.length; i++){
             int in = i;
@@ -46,8 +59,12 @@ public class Solution {
             a[in] = temp;
         }
     }
+    /*--------------------------------------------------------------------------------------------*/
+
+
 
     //快速排序
+    /*--------------------------------------------------------------------------------------------*/
     public static void quickSort(int[] a, int low, int high){
         if (low < high){
             int index = getIndex(a, low, high);
@@ -72,8 +89,11 @@ public class Solution {
         a[low] = temp;
         return low;
     }
+    /*--------------------------------------------------------------------------------------------*/
+
 
     //堆排序
+    /*--------------------------------------------------------------------------------------------*/
     // 堆排序的基本思想是：将待排序序列构造成一个大顶堆，此时，整个序列的最大值就是堆顶的根节点。
     // 将其与末尾元素进行交换，此时末尾就为最大值。然后将剩余n-1个元素重新构造成一个堆，
     // 这样会得到n个元素的次小值。如此反复执行，便能得到一个有序序列了
@@ -94,17 +114,59 @@ public class Solution {
     }
 
     //堆排序
-    //1、先建大根堆（从第一个非叶子节点往前调整）
-    //2、交换首尾元素后调整堆
     public static void heapSort(int[] a){
+        //1、先建大根堆（从第一个非叶子节点往前调整）
         for (int i = a.length / 2 - 1; i >= 0; i--){
             adjustHeap(a, i, a.length);
         }
+        //2、交换首尾元素后调整堆
         for (int j = a.length - 1; j > 0 ; j--){
             swap(a, 0, j);
             adjustHeap(a, 0, j);
         }
     }
+    /*--------------------------------------------------------------------------------------------*/
+
+
+    //归并排序
+    /*--------------------------------------------------------------------------------------------*/
+    private int[] aux;
+
+    public void mergeSort(int[] nums) {
+        int len = nums.length;
+        aux = new int[len];
+        sort(nums, 0, len - 1);
+    }
+
+    //将nums[low...high]排好序
+    public void sort(int[] nums, int low, int high) {
+        if (low >= high) {
+            return;
+        }
+        int mid = low + (high - low) / 2;
+        sort(nums, low, mid);
+        sort(nums, mid + 1, high);
+        merge(nums, low, mid, high);
+    }
+
+    public void merge(int[] nums, int low, int mid, int high) {
+        int i = low, j = mid + 1;
+        for (int k = low; k <= high; k++) {
+            aux[k] = nums[k];  //暂存一下
+        }
+        for (int k = low; k <= high; k++) {
+            if (i > mid) {
+                nums[k] = aux[j++];
+            }else if (j > high) {
+                nums[k] = aux[i++];
+            }else if (aux[i] > aux[j]) {
+                nums[k] = aux[j++];
+            }else {
+                nums[k] = aux[i++];
+            }
+        }
+    }
+    /*--------------------------------------------------------------------------------------------*/
 
     public static void main(String[] args) {
         int[] input = {2, 3, 6, 8, 1, -2, 7, -4};
@@ -112,7 +174,8 @@ public class Solution {
 //        quickSort(input, 0, input.length - 1);
 //        insertSort(input);
 //        selectSort(input);
-        bubbleSort(input);
+//        bubbleSort(input);
+        new Solution().mergeSort(input);
         for (int n : input){
             System.out.print(n + " ");
         }

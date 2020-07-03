@@ -25,7 +25,7 @@ class Solution {
         return max;
     }
 
-    //返回从下到上找一条路径，路径的终节点为root(必选)，可以获得的最大路径和
+    //返回 从下到上找一条路径，路径的终节点为root(必选)，可以获得的最大路径和
     public int oneSideMax(TreeNode root) {
         if (root == null) {
             return 0;
