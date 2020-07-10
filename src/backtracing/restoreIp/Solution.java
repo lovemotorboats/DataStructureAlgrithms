@@ -5,66 +5,73 @@ package backtracing.restoreIp;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Set;
 
 class Solution {
-    public static List<String> restoreIpAddresses(String s) {
-        //回溯法
-        List<String> ip = new ArrayList<>();
-        if (s.length() <= 3 || s.length() >= 13) {
-            return ip;
+    public List<String> restoreIpAddresses(String s) {
+        //回溯法，依次在数字之间的空隙中摆放“.”，当不满足要求时就回溯，直到将三个“.”都放置成功说明是一个合法的解决方案
+        List<String> res = new ArrayList<>();
+        if (s == null || s.length() < 4 || s.length() > 12) {  //长度不合适，没有一个解决方案
+            return res;
         }
-        int[] point = new int[4];
-        point[0] = -1;
-        backTracing(point, 1, s, ip);
-        return ip;
+        int[] points = new int[4];
+        backTrace(points, 1, s, res);
+        return res;
     }
 
-    public static boolean isOk(int[] point, int now, int index, String s) {
-        //point[i]表示第i个点放置在第几个空（字符串第一个字符后面的空的索引为0）
-        //now表示当前是第几个点，index表示要放置的位置
-        int len = index - point[now - 1];
-        if (len > 3) {
+    public void backTrace(int[] points, int now, String s, List<String> result) {
+        //points : 已经摆放的“.”在字符串中的间隙中的索引位置（定义第一个字符后面的那个间隙索引为1，以此类推）,point[i]表示第i个点的位置（i从1开始）
+        //now : 当前需要摆放的是第几个点
+        //s : 输入的原始字符串
+        //result : 已经找到的解决方案
+
+        if (now == 4) {  //说明已经摆放了三个点
+            StringBuilder sb = new StringBuilder();
+            for (int i = 1; i <= 3; i++) {
+                sb.append(s, points[i - 1], points[i]);
+                sb.append(".");
+            }
+            sb.append(s.substring(points[3]));
+            result.add(sb.toString());
+            return;
+        }
+        for (int i = points[now - 1] + 1; i < s.length(); i++) {
+            //开始尝试
+            if (isOk(points, now, i, s)) {
+                points[now] = i;
+                backTrace(points, now + 1, s, result);
+            }
+        }
+
+    }
+
+    //判断将第now个“.”放置在s中的第index个间隙位置是否合法
+    public boolean isOk(int[] points, int now, int index, String s) {
+        int len = index - points[now - 1];  //与前一个点的距离
+        if (len > 3) {  //超过3位数，直接不合法
             return false;
-        } else if (len >= 2 && s.charAt(point[now - 1] + 1) == '0') {
+        }else if (len >= 2 && s.charAt(points[now - 1]) == '0') {  //距离大于2并且以0开头，也不合法
             return false;
         }
-        if (now == 3) {
-            if (s.charAt(index + 1) == '0' && s.length() - 1 - index >= 2) {
+
+        if (now == 3) {  //最后一个点，特殊处理
+            if (s.length() - index >= 2 && s.charAt(index) == '0') {
                 return false;
             }
-            int last = Integer.valueOf(s.substring(index + 1));
+            int last = Integer.valueOf(s.substring(index));
             if (last > 255) {
                 return false;
             }
         }
-        Integer temp = Integer.valueOf(s.substring(point[now - 1] + 1, index + 1));
-        if (temp > 255 || (4 - now) * 3 < s.length() - 1 - index) {
+
+        Integer temp = Integer.valueOf(s.substring(points[now - 1], index));
+        if (temp > 255) {
+            return false;
+        }
+
+        if ((4 - now) * 3 < s.length() - index) {
             return false;
         }
         return true;
-    }
-
-    public static void backTracing(int[] point, int now, String s, List<String> result) {
-        if (now == 4) {
-            StringBuilder newIp = new StringBuilder();
-            for (int i = 0; i <= 2; i++) {
-                newIp.append(s.substring(point[i] + 1, point[i + 1] + 1));
-                newIp.append(".");
-            }
-            newIp.append(s.substring(point[3] + 1));
-            result.add(newIp.toString());
-            return;
-        }
-
-        for (int i = point[now - 1] + 1; i < s.length() - 1; i++) {
-            if (isOk(point, now, i, s)) {
-                point[now] = i;
-                backTracing(point, now + 1, s, result);
-            }
-        }
-    }
-
-    public static void main(String[] args) {
-        System.out.println(restoreIpAddresses("0000").toString());
     }
 }

@@ -9,7 +9,7 @@ public class Solution {
         //1、申请一个辅助栈help，弹出原栈的栈顶元素cur，如果cur小于等于help的栈顶元素直接就将cur压入help中
         //否则，先将help中的元素依次弹出压入到原栈中直到cur小于等于help栈顶，再将cur压入到help中，重复以上操作
         //直到原栈为空，最后再将help中的元素依次压入到原栈中即可
-        Stack<Integer> help = new Stack<Integer>();
+        Stack<Integer> help = new Stack<>();
         while (!stack.isEmpty()){
             int cur = stack.pop();
             while (!help.isEmpty() && help.peek() < cur){

@@ -57,7 +57,7 @@ public class Solution {
         if (head != null){
             Node cur = head;
             Stack<Node> stack = new Stack<>();
-            Node node = null;
+            Node node;
             while (!stack.isEmpty() || cur != null){
                 if (cur != null){
                     stack.push(cur);
@@ -82,7 +82,7 @@ public class Solution {
         if (head != null){
             Stack<Node> s1 = new Stack<>();
             Stack<Node> s2 = new Stack<>();
-            Node cur = null;
+            Node cur;
             s1.push(head);
             while (!s1.isEmpty()){
                 cur = s1.pop();

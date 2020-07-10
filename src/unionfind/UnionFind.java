@@ -5,6 +5,11 @@ package unionfind;
  * @create:2020-06-17
  */
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.List;
+
 public class UnionFind{
     public int[] parent;
 
@@ -29,10 +34,12 @@ public class UnionFind{
         int x_root = find(x);
         int y_root = find(y);
         parent[x_root] = y_root;
+
     }
 
     //判断两个节点是否连通
     public boolean isConnected(int x, int y) {
         return find(x) == find(y);
     }
+
 }
