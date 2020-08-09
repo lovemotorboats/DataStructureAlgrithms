@@ -51,4 +51,8 @@ public class Solution {
         }
         return posi ? -res : res;
     }
+
+    public static void main(String[] args) {
+        System.out.println(convert("-297183"));
+    }
 }

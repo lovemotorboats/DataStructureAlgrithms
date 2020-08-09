@@ -1,0 +1,82 @@
+
+//最小公倍数和最大公因数
+public class Solution{
+
+    //判断一个数n是不是质数
+    public static boolean isPrime(int n){
+        //大于等于5的质数必定位于6的倍数的两侧
+        if (n == 2 || n == 3) {
+            return true;
+        }
+        if (n % 6 != 1 && n % 6 != 5) {
+            return false;
+        }
+        int temp = (int)Math.sqrt(n);
+        for (int i = 5; i <= temp; i += 6){
+            if (n % i == 0 || n % (i + 2) == 0){
+                return false;
+            }
+        }
+        return true;
+    }
+
+    //两个数的最大公因数
+    public static int gcd(int a, int b) {
+        return b == 0 ? a :gcd(b, a % b);
+    }
+
+    //两个数的最小公倍数
+    public static int lcm(int a, int b) {
+        int maxDivider = gcd(a, b);
+        return a * b / maxDivider;
+    }
+
+    //求n的质因数组
+    public static ArrayList<Integer> getDividers(int n) { //n >= 2
+        int temp = (int)Math.sqrt(n);
+        List<Integer> list = new ArrayList<>();
+        for (int i = 2; i <= temp; i++) {
+            if (isPrime(i)) {
+                while (n % i == 0) {
+                    list.add(i);
+                    n = n / i;
+                    if (n == 1) {
+                        break;
+                    }
+                }
+            }
+            if (n == 1){
+                break;
+            }
+        }
+        return list;
+    }
+
+    //求n个数的最大公因数
+    public static int gcd(int[] arr) {  //arr.length >= 2 && arr[i] >= 2
+        //任何整数都能分解成若干个质数的乘积，我们只要找出这n个数的共有的因子集合，求出他们的乘积即可
+        List<ArrayList<Integer>> dividers = new ArrayList<>();
+        for (int i = 0; i < arr.length; i++) {
+            dividers.add(getDividers(arr[i]));
+        }
+        List<Integer> commonDividers = dividers.get(0);
+        for (int i = 1; i < arr.length; i++) {
+            commonDividers.retainAll(dividers.get(i));  //取交集
+        }
+        int greatestCommonDivider = 1;
+        int len = commonDividers.size();
+        for (int i = 0; i < len; i++) {
+            greatestCommonDivider *= commonDividers.get(i);
+        }
+        return greatestCommonDivider;
+    }
+
+    //求n个数的最小公倍数
+    
+
+    //测试
+    private static void main(String[] args) {
+        int[] input = {24, 36, 60, 128};
+        System.out.println(gcd(input));
+    }
+}

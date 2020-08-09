@@ -97,8 +97,69 @@ public class Solution {
         }
     }
 
-    //非递归方式后序遍历二叉树
-    public static void postOrderUnRecur(Node head){
-        //方法2：
+
+    //默写
+    //1、非递归先序遍历
+    public void preTravel(Node root) {
+        Node cur = root;
+        if (cur != null) {
+            Stack<Node> stack = new Stack<>();
+            stack.push(cur);
+            while (!stack.isEmpty()) {
+                cur = stack.pop();
+                System.out.println(cur.value);
+                if (cur.right != null) {
+                    stack.push(cur.right);
+                }
+                if (cur.left != null) {
+                    stack.push(cur.left);
+                }
+            }
+        }
+    }
+
+    //2、非递归中序遍历
+    public void inTravel(Node root) {
+        Node cur = root;
+        if (cur != null) {
+            Stack<Node> stack = new Stack<>();
+            stack.push(cur);
+            while (!stack.isEmpty() || cur != null) {
+                cur = stack.pop();
+                if (cur != null) {
+                    stack.push(cur);
+                    cur = cur.left;
+                }else {
+                    Node node = stack.pop();
+                    System.out.println(node.value);
+                    cur = node.right;
+                }
+            }
+        }
+    }
+
+    //3、非递归后续遍历
+    public void postTravel(Node root) {
+        Node cur = root;
+        if (cur != null) {
+            Stack<Node> s1 = new Stack<>();
+            Stack<Node> s2 = new Stack<>();
+            s1.push(cur);
+            while (!s1.isEmpty()) {
+                cur = s1.pop();
+                s2.push(cur);
+                if (cur.left != null) {
+                    s1.push(cur.left);
+                }
+                if (cur.right != null) {
+                    s1.push(cur.right);
+                }
+            }
+
+            while (!s2.isEmpty()) {
+                cur = s2.pop();
+                System.out.println(cur.value);
+            }
+        }
     }
 }

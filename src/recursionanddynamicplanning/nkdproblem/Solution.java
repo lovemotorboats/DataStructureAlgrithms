@@ -1,6 +1,8 @@
 package recursionanddynamicplanning.nkdproblem;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Comparator;
 import java.util.Scanner;
 
 //从大小为N的整型数组中，选取K个数，每个数之间的索引不能超过D，怎样选择能让选出来的数乘积最大？
@@ -20,12 +22,12 @@ public class Solution {
         if (a == null || a.length == 0 || k > a.length || k <= 0 || d < 0) {
             return 0;
         }
-        if(d == 0){
-            if(k > 1){
+        if (d == 0) {
+            if (k > 1) {
                 return 0;
-            }else if (k == 1){
+            } else if (k == 1) {
                 int max = a[0];
-                for(int i = 0; i < a.length; i++){
+                for (int i = 0; i < a.length; i++) {
                     max = max < a[i] ? a[i] : max;
                 }
                 return max;
@@ -60,7 +62,7 @@ public class Solution {
         long val = dp[len - 1][k - 1][0];
         int lastIndex = len - 1;
         for (int i = k - 1; i < len; i++) {
-            if(val < dp[i][k - 1][0]){
+            if (val < dp[i][k - 1][0]) {
                 val = dp[i][k - 1][0];
                 lastIndex = i;
             }
@@ -68,10 +70,10 @@ public class Solution {
         long max = val;  //临时变量
         result.add(lastIndex);
         int col = k - 2;
-        while (result.size() != k){
-            if (a[lastIndex] > 0){
-                for(int j = lastIndex - 1; j >= lastIndex - d && j >= 0; j--){
-                    if (dp[j][col][0] == max / a[lastIndex] || dp[j][col][1] == max / a[lastIndex]){
+        while (result.size() != k) {
+            if (a[lastIndex] > 0) {
+                for (int j = lastIndex - 1; j >= lastIndex - d && j >= 0; j--) {
+                    if (dp[j][col][0] == max / a[lastIndex] || dp[j][col][1] == max / a[lastIndex]) {
                         max = max / a[lastIndex];
                         lastIndex = j;
                         col--;
@@ -79,9 +81,9 @@ public class Solution {
                         break;
                     }
                 }
-            }else if (a[lastIndex] < 0){
-                for(int j = lastIndex - 1; j >= lastIndex - d && j >= 0; j--){
-                    if (dp[j][col][1] == max / a[lastIndex] || dp[j][col][0] == max / a[lastIndex]){
+            } else if (a[lastIndex] < 0) {
+                for (int j = lastIndex - 1; j >= lastIndex - d && j >= 0; j--) {
+                    if (dp[j][col][1] == max / a[lastIndex] || dp[j][col][0] == max / a[lastIndex]) {
                         max = max / a[lastIndex];
                         lastIndex = j;
                         col--;
@@ -98,18 +100,20 @@ public class Solution {
 //        int[] input = {3, 7, -2, 4, 6, 1, -7, -5, 3, 9};
 //        int m = getMax(input, 3, 3, new ArrayList<Integer>());
 //        System.out.println(m);
-            Scanner input = new Scanner(System.in);
-            int numOfStudents = input.nextInt();
-            int[] a = new int[numOfStudents];
-            for(int i = 0; i < numOfStudents; i++){
-                a[i] = input.nextInt();
-            }
-            int k = input.nextInt();
-            int d = input.nextInt();
-            ArrayList<Integer> list = new ArrayList<>();
-            System.out.println(getMax(a, k, d, list));
-            for (int index : list){
-                System.out.println(index + " " + a[index]);
-            }
+        Scanner input = new Scanner(System.in);
+        int numOfStudents = input.nextInt();
+        int[] a = new int[numOfStudents];
+        for (int i = 0; i < numOfStudents; i++) {
+            a[i] = input.nextInt();
+        }
+        int k = input.nextInt();
+        int d = input.nextInt();
+        ArrayList<Integer> list = new ArrayList<>();
+        System.out.println(getMax(a, k, d, list));
+        for (int index : list) {
+            System.out.println(index + " " + a[index]);
+        }
+
+        int[][] nums = {{1, 2}, {2, 4}};
     }
 }
