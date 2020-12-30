@@ -37,10 +37,6 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-//        System.out.println(multiply("1236351124545452212121552856894212125", "2342735121244525451221545451212154545"));
-        String[] split = "/a/../../b/../c//.//".split("/");
-        for (String s : split) {
-            System.out.print(s + "   ");
-        }
+        System.out.println(multiply("1236351124545452212121552856894212125", "2342735121244525451221545451212154545"));
     }
 }

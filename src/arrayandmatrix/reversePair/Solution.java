@@ -5,6 +5,10 @@ package arrayandmatrix.reversePair;
  * @create:2020-07-07
  */
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.stream.Collectors;
+
 public class Solution {
     private int[] aux;
 
@@ -50,6 +54,9 @@ public class Solution {
 
     public static void main(String[] args) {
         int[] input = {10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0};
-        System.out.println(new Solution().reversePairs(input));
+        String res = Arrays.stream(input).mapToObj(String::valueOf)
+                .sorted((o1, o2) -> (o2 + o1).compareTo(o1 + o2))
+                .collect(Collectors.joining());
+        System.out.println(res);
     }
 }

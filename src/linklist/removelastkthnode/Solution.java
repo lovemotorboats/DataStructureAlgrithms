@@ -15,12 +15,13 @@ public class Solution {
             lastKth--;
             cur = cur.next;
         }
-        if (lastKth == 0)
+        if (lastKth == 0) {
             head = head.next;
-        else if (lastKth <= 0){
+        } else if (lastKth < 0){
             cur = head;
-            while (++lastKth != 0)
+            while (++lastKth != 0) {
                 cur = cur.next;
+            }
             cur .next = cur.next.next;
         }
         return head;
